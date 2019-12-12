@@ -1,0 +1,37 @@
+{
+  "name": "is-development-mode",
+  "version": "1.0.0",
+  "description": "Determine whether Node is running in development mode",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grug/is-development-mode.git"
+  },
+  "author": "Dave Cooper <dave@davecooper.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grug/is-development-mode/issues"
+  },
+  "homepage": "https://github.com/grug/is-development-mode#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.17",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
