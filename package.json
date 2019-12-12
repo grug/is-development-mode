@@ -2,8 +2,8 @@
   "name": "is-development-mode",
   "version": "1.0.2",
   "description": "Determine whether Node is running in development mode",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "rimraf dist && tsc"
