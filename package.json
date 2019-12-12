@@ -1,6 +1,6 @@
 {
   "name": "is-development-mode",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Determine whether Node is running in development mode",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
