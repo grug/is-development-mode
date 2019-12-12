@@ -33,9 +33,5 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  },
-  "np": {
-    "yarn": false,
-    "contents": "dist"
   }
 }
