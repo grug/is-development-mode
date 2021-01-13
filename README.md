@@ -10,9 +10,9 @@ Everyone else has a silly one-liner in NPM with 8,000,000,000 downloads a week t
 
 ## Installation
 
-NPM: `npm install --save-dev is-development-mode`
+NPM: `npm install is-development-mode`
 
-Yarn: `yarn add --dev is-development-mode`
+Yarn: `yarn add is-development-mode`
 
 ## Usage
 
